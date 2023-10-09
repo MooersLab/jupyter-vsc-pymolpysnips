@@ -1,4 +1,4 @@
-# jupyter-vsc-pymolpysnips
+# jupyter-vsc-pymolpysnips (work in progress)
 PyMOL Python snippet library to edit live Jupyter notebook cells with Visual Studio Code using [GhostText web browser extension](https://github.com/fregante/GhostText) and the [GhostText-for-Atom](https://github.com/GhostText/GhostText-for-Atom) plugin for Visual Studio Code. 
 
 ## On Windows 10 or 11
