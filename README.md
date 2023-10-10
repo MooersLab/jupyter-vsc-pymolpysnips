@@ -14,3 +14,8 @@ Instead, open the Command Prompt and use the `cmv` command to move the `source.p
 
 Store the `source.python.json` file in `~/Library/Code/Application Support/Code/User/snippets/source.python.json`.
 If a `source.python.json` file already exists, copy the contents between the external braces in the PyMOL `source.python.json` and paste inside the external braces of the original `source.python.json`.
+
+## Note
+
+Some snippets depend on some pymolshortcuts.
+Add the [pymolshortcuts.py](https://github.com/MooersLab/pymolshortcuts) file to working working directory.
