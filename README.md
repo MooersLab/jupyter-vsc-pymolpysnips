@@ -1,4 +1,4 @@
-# jupyter-vsc-pymolpysnips (work in progress)
+# jupyter-vsc-pymolpysnips
 
 PyMOL Python snippet library to edit live Jupyter notebook cells with Visual Studio Code using [GhostText web browser extension](https://github.com/fregante/GhostText) and the [GhostText-for-VSCode](https://github.com/GhostText/GhostText-for-VSCode) plugin for Visual Studio Code. 
 The snippets are formatted for the generic VSCode snippet format.
@@ -6,7 +6,7 @@ You may want to install the BioSyntax package for VSCode for color highlighting 
 
 ## On Windows 10 or 11
 
-Store the `python.json` file in `\Users\\AppData\Roaming\Code\User\snippets\`. 
+Store the `source.python.json` file in `\Users\\AppData\Roaming\Code\User\snippets\`. 
 The folder `AppData` may be hidden if you use the Windows GUI to move the file. 
 Instead, open the Command Prompt and use the `cmv` command to move the `source.python.json` file into the snippets subfolder.
 
