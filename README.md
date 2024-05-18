@@ -1,4 +1,8 @@
-# jupyter-vsc-pymolpysnips
+![Version](https://img.shields.io/static/v1?label=dsd4xtals&message=0.2&color=brightcolor)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
+
+# PyMOL Python snippet library to edit live Jupyter notebook cells with Visual Studio Code
 
 PyMOL Python snippet library to edit live Jupyter notebook cells with Visual Studio Code using [GhostText web browser extension](https://github.com/fregante/GhostText) and the [GhostText-for-VSCode](https://github.com/GhostText/GhostText-for-VSCode) plugin for Visual Studio Code. 
 The snippets are formatted for the generic VSCode snippet format.
@@ -13,7 +17,7 @@ Instead, open the Command Prompt and use the `cmv` command to move the `source.p
 ## On macOS    
 
 Store the `source.python.json` file in `~/Library/Code/Application Support/Code/User/snippets/source.python.json`.
-If a `source.python.json` file already exists, copy the contents between the external braces in the PyMOL `source.python.json` and paste inside the external braces of the original `source.python.json`.
+If a `source.python.json` file already exists, copy the contents between the external braces in the PyMOL `source.python.json` and paste them inside the external braces of the original `source.python.json`.
 
 ## Note
 
@@ -21,7 +25,7 @@ Some snippets depend on some pymolshortcuts.
 Add the [pymolshortcuts.py](https://github.com/MooersLab/pymolshortcuts) file to working working directory.
 
 
-## Related repos
+## Related repositories
 
 - [jupyterlabpymolpysnips](https://github.com/MooersLab/jupyterlabpymolpysnips) PyMOL Python snippets for use in JupyterLab with the jupyterlab-snippets extension.
 - [jupyternbclassicpymolpysnipsplus](https://github.com/MooersLab/jupyternbclassicpymolpysnipsplus)
@@ -34,3 +38,15 @@ Add the [pymolshortcuts.py](https://github.com/MooersLab/pymolshortcuts) file to
 - [jupyter-snipmate-pymolpysnips](https://github.com/MooersLab/jupyter-snipmate-pymolpysnips)
 - [jupyter-neosnippets-pymolpysnips](https://github.com/MooersLab/jupyter-neosnippets-pymolpysnips)
 - [jupyter-atom-pymolpysnips](https://github.com/MooersLab/jupyter-atom-pymolpysnips)
+
+## Update History
+
+|Version      | Changes                                         | Date                 |
+|:-----------:|:-----------------------------------------------:|:--------------------:|
+| Version 0.2 | Added badges, funding, and update history                       | 2024 May 18        |
+
+
+## Sources of funding
+
+- NIH: R01 CA242845
+- NIH: R01 AI088011
